@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "role": "Full Stack Developer",
+    "bio": "I build scalable web applications."
+  },
+  "skills": {
+    "frontend": ["React", "Vite"],
+    "backend": ["Node.js", "Express"]
+  },
+  "projects": [
+    { "id": 1, "title": "Project A", "desc": "Description here", "link": "#" }
+  ]
+}
