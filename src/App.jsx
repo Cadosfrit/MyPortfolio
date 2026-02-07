@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("YOUR_GITHUB_JSON_URL")
+    fetch("https://raw.githubusercontent.com/Cadosfrit/MyPortfolio/blob/dfddfe3f98d277090a4cad23de2e037ebfdce890/public/data.json")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
