@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       </header>
 
       {/* Main Content Area */}
-      <main className="flex-grow">
+      <main className="grow">
         {children}
       </main>
 
