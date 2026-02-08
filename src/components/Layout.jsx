@@ -4,7 +4,7 @@ const Layout = ({ children }) => {
       {/* Modern Fixed Navbar */}
       <header className="sticky top-0 z-40 w-full bg-bg-main/80 backdrop-blur-md border-b border-brand-primary/10">
         <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <strong className="text-xl font-black text-brand-primary tracking-tighter">
+          <strong className="text-xl font-black text-brand-primary tracking-tighter -ml-40">
             RN<span className="text-text-main">.</span>
           </strong>
           
@@ -24,16 +24,16 @@ const Layout = ({ children }) => {
       </main>
 
       {/* Modern Footer */}
-      <footer className="py-12 border-t border-brand-primary/10 bg-bg-soft">
+      <footer className="py-7 border-t border-brand-primary/50 bg-bg-main">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-text-main font-bold mb-2">Ronit Roshan Nayak</p>
           <p className="text-text-muted text-sm">
-            © {new Date().getFullYear()} — Built with React & Spring Boot expertise
+            © {new Date().getFullYear()} — Built with React and Tailwind CSS. All rights reserved.
           </p>
           <div className="mt-4 flex justify-center gap-4 text-xs font-mono text-brand-primary/60">
             <span>Tailwind v4</span>
             <span>•</span>
-            <span>Decoupled Architecture</span>
+            <span>React </span>
           </div>
         </div>
       </footer>
