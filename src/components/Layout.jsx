@@ -1,24 +1,41 @@
 const Layout = ({ children }) => {
   return (
-    <div className="site-wrapper" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <header style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
-        <nav style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '1200px', margin: '0 auto' }}>
-          <strong>DevPortfolio</strong>
-          <div style={{ display: 'flex', gap: '1.5rem' }}>
-            <a href="#hero">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Projects</a>
+    <div className="min-h-screen flex flex-col bg-bg-main transition-colors duration-300">
+      {/* Modern Fixed Navbar */}
+      <header className="sticky top-0 z-40 w-full bg-bg-main/80 backdrop-blur-md border-b border-brand-primary/10">
+        <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+          <strong className="text-xl font-black text-brand-primary tracking-tighter">
+            RN<span className="text-text-main">.</span>
+          </strong>
+          
+          <div className="flex gap-6 md:gap-8 text-sm font-bold text-text-muted">
+            <a href="#hero" className="hover:text-brand-primary transition-colors">Home</a>
+            <a href="#experience" className="hover:text-brand-primary transition-colors">Experience</a>
+            <a href="#skills" className="hover:text-brand-primary transition-colors">Skills</a>
+            <a href="#portfolio" className="hover:text-brand-primary transition-colors">Projects</a>
+            <a href="#education" className="hover:text-brand-primary transition-colors">Education</a>
           </div>
         </nav>
       </header>
 
-      {/* This is where the Hero, Skills, and Portfolio will live */}
-      <main style={{ flex: 1, maxWidth: '1200px', margin: '0 auto', width: '100%', padding: '0 1rem' }}>
+      {/* Main Content Area */}
+      <main className="flex-grow">
         {children}
       </main>
 
-      <footer style={{ padding: '2rem', textAlign: 'center', borderTop: '1px solid #eee' }}>
-        <p>© {new Date().getFullYear()} — Built with the Functional Skeleton Strategy</p>
+      {/* Modern Footer */}
+      <footer className="py-12 border-t border-brand-primary/10 bg-bg-soft">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <p className="text-text-main font-bold mb-2">Ronit Roshan Nayak</p>
+          <p className="text-text-muted text-sm">
+            © {new Date().getFullYear()} — Built with React & Spring Boot expertise
+          </p>
+          <div className="mt-4 flex justify-center gap-4 text-xs font-mono text-brand-primary/60">
+            <span>Tailwind v4</span>
+            <span>•</span>
+            <span>Decoupled Architecture</span>
+          </div>
+        </div>
       </footer>
     </div>
   );
