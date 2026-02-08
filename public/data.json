@@ -1,106 +1,14 @@
 {
   "profile": {
-    "name": "Ronit Roshan Nayak",
-    "role": "Software Engineer & Full Stack Developer",
-    "contact": {
-      "email": "ronitroshan2003@gmail.com",
-      "phone": "+91-6370975885",
-      "linkedin": "https://linkedin.com/in/ronit-roshan-nayak-8ab4232bb/",
-      "github": "https://github.com/Cadosfrit",
-      "resume": "https://drive.google.com/file/d/1m5C45BtQs7SgwwjsRRqiuW1e1vvMy-g8/view?usp=sharing"
-    },
-    "summary": "Dedicated Software Engineer focused on building efficient backend solutions and high-quality user experiences."
+    "name": "Your Name",
+    "role": "Full Stack Developer",
+    "bio": "I build scalable web applications."
   },
-  "education": [
-    {
-      "institution": "Kalinga Institute of Industrial Technology",
-      "degree": "B.Tech in Computer Science and System Engineering",
-      "year": "Expected 2026",
-      "score": "CGPA: 8.9"
-    }
-  ],
-  "experience": [
-    {
-      "company": "Highradius",
-      "role": "Product Intern",
-      "duration": "May 2025 - Present",
-      "highlights": [
-        "Completed hands-on training in Advanced Java, MySQL, and Spring Boot.",
-        "Building full-stack applications integrating React front-ends with Spring backend.",
-        "Applying industry-standard testing using JUnit, TestNG, and Selenium."
-      ]
-    }
-  ],
   "skills": {
-    "languages": [
-      "Java",
-      "JavaScript",
-      "HTML"
-    ],
-    "frameworks": [
-      "Spring Boot",
-      "React",
-      "Hibernate"
-    ],
-    "databases": [
-      "MongoDB",
-      "MySQL"
-    ],
-    "testing tools": [
-      "JUnit",
-      "TestNG",
-      "Selenium"
-    ]
+    "frontend": ["React", "Vite"],
+    "backend": ["Node.js", "Express"]
   },
   "projects": [
-    {
-      "id": 1,
-      "title": "Invoice Management System",
-      "date": "Aug 2025",
-      "tech": [
-        "Spring Boot",
-        "MySQL",
-        "React"
-      ],
-      "description": "Full-stack system managing end-to-end invoicing between buyers and sellers.",
-      "features": [
-        "Automatic invoice generation upon Purchase Order acceptance.",
-        "Integrated dispute mechanism with automated email alerts.",
-        "Accounts Payables/Receivables tracking."
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Healthcare Workflow Optimization",
-      "date": "May 2024",
-      "tech": [
-        "Spring Boot",
-        "MongoDB",
-        "Elasticsearch",
-        "JWT"
-      ],
-      "description": "Secure RESTful APIs for medical service browsing and appointment management.",
-      "features": [
-        "Elasticsearch integration for high-speed search functionality.",
-        "OTP-based registration via Twilio and RazorPay payment integration.",
-        "JWT and SSO-based authentication."
-      ]
-    },
-    {
-      "id": 3,
-      "title": "College Student Info System (CSIS)",
-      "date": "Dec 2024",
-      "tech": [
-        "Spring Boot",
-        "MongoDB",
-        "Flutter"
-      ],
-      "description": "Backend service mimicking a college SAP portal for academic record management.",
-      "features": [
-        "Role-Based Access Control (RBAC) for secure data management.",
-        "Real-time chat module using REST endpoints and Short Polling."
-      ],
-      "link": "https://github.com/Cadosfrit/Kiit_sap_app/tree/master"
-    }
+    { "id": 1, "title": "Project A", "desc": "Description here", "link": "#" }
   ]
 }
