@@ -5,7 +5,7 @@ const Experience = ({ experience }) => (
       <div className="space-y-10">
         {experience.map((job, index) => (
           <div key={index} className="relative pl-8 border-l-2 border-brand-primary">
-            <div className="absolute -left-[9px] top-0 w-4 h-4 bg-brand-primary rounded-full border-4 border-white"></div>
+            <div className="absolute -left-2.25 top-0 w-4 h-4 bg-brand-primary rounded-full border-4 border-white"></div>
             <div className="flex flex-col md:flex-row md:justify-between mb-4">
               <div>
                 <h3 className="text-2xl font-bold text-text-main">{job.role}</h3>
