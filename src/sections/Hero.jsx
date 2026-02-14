@@ -40,12 +40,6 @@ const Hero = ({ profile }) => (
             </span>
           )}
 
-          {profile.contact.phone && (
-            <span className="flex items-center gap-2 bg-bg-soft px-3 py-1.5 rounded-lg border border-brand-primary/10">
-              <Phone size={16} className="text-brand-primary" /> {profile.contact.phone}
-            </span>
-          )}
-
           {/* Social Links as Interactive Buttons */}
           <div className="flex flex-wrap gap-3 mt-2">
             {profile.contact.linkedin && (
