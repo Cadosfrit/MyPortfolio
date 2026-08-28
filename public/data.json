@@ -8,85 +8,63 @@
       "github": "https://github.com/Cadosfrit",
       "resume": "https://drive.google.com/file/d/1_cKxKfpq_mPdt0hcVBvxbWrwH8CRvSXM/view?usp=sharing"
     },
-    "summary": "Dedicated Software Engineer focused on building efficient backend solutions and high-quality user experiences."
+    "summary": "A Software Development Engineer with full-stack experience specializing in React, Spring Boot, and cloud data processing (AWS, Snowflake). Dedicated to architecting scalable enterprise solutions, managing complex asynchronous data workflows, and driving backend performance optimizations."
   },
   "education": [
     {
       "institution": "Kalinga Institute of Industrial Technology",
       "degree": "B.Tech in Computer Science and System Engineering",
-      "year": "Expected 2026",
+      "year": "Jul 2026",
       "score": "CGPA: 8.9"
     }
   ],
   "experience": [
     {
-      "company": "Highradius",
-      "role": "Product Intern",
-      "duration": "May 2025 - Present",
+      "company": "HighRadius",
+      "role": "Software Development Engineer 1 (FTE)",
+      "duration": "Jul 2026 - Present",
       "highlights": [
-        "Completed hands-on training in Advanced Java, MySQL, and Spring Boot.",
-        "Building full-stack applications integrating React front-ends with Spring backend.",
-        "Applying industry-standard testing using JUnit, TestNG, and Selenium."
+        "Engineered an Aggregate Grid component featuring custom row/column 'roll-up' capabilities to filter, sort, and summarize large datasets via advanced Snowflake and Apache Spark SQL queries.",
+        "Architected a cross-tenant Import/Export framework to migrate workbooks and their underlying dependencies by extracting complex data graphs into structured JSON payloads.",
+        "Implemented an orchestrated Saga design pattern to manage asynchronous Import/Export flows utilizing AWS SQS and a MySQL request tracker.",
+        "Utilized Apache ZooKeeper to manage distributed locks and safely allocate data processing resources during execution plan computations."
+      ]
+    },
+    {
+      "company": "HighRadius",
+      "role": "Product Development Intern",
+      "duration": "May 2025 - Jun 2026",
+      "highlights": [
+        "Contributed to Livecube, a no-code enterprise platform featuring an Excel-like interface backed by cloud databases capable of handling millions of records.",
+        "Built interactive UI components for the Livecube Reports drag-and-drop canvas using React and React-Draggable.",
+        "Managed complex frontend states across the reporting dashboard utilizing Redux to ensure smooth data rendering and user interactions."
       ]
     }
   ],
   "skills": {
     "languages": [
       "Java",
+      "SQL",
       "JavaScript",
-      "HTML"
-    ],
+      "HTML"    ],
     "frameworks": [
       "Spring Boot",
       "React",
-      "Hibernate"
+      "Redux"
     ],
-    "databases": [
-      "MongoDB",
+    "cloud_and_tools": [
+      "AWS (SQS)",
+      "Apache ZooKeeper"
+    ],
+    "data_and_db": [
+      "Snowflake",
+      "Apache Spark",
       "MySQL"
-    ],
-    "testing tools": [
-      "JUnit",
-      "TestNG",
-      "Selenium"
     ]
   },
   "projects": [
     {
       "id": 1,
-      "title": "Invoice Management System",
-      "date": "Aug 2025",
-      "tech": [
-        "Spring Boot",
-        "MySQL",
-        "React"
-      ],
-      "description": "Full-stack system managing end-to-end invoicing between buyers and sellers.",
-      "features": [
-        "Automatic invoice generation upon Purchase Order acceptance.",
-        "Integrated dispute mechanism with automated email alerts.",
-        "Accounts Payables/Receivables tracking."
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Healthcare Workflow Optimization",
-      "date": "May 2024",
-      "tech": [
-        "Spring Boot",
-        "MongoDB",
-        "Elasticsearch",
-        "JWT"
-      ],
-      "description": "Secure RESTful APIs for medical service browsing and appointment management.",
-      "features": [
-        "Elasticsearch integration for high-speed search functionality.",
-        "OTP-based registration via Twilio and RazorPay payment integration.",
-        "JWT and SSO-based authentication."
-      ]
-    },
-    {
-      "id": 3,
       "title": "College Student Info System (CSIS)",
       "date": "Dec 2024",
       "tech": [
@@ -96,10 +74,26 @@
       ],
       "description": "Backend service mimicking a college SAP portal for academic record management.",
       "features": [
-        "Role-Based Access Control (RBAC) for secure data management.",
-        "Real-time chat module using REST endpoints and Short Polling."
+        "Role-Based Access Control (RBAC) and JWT authentication for secure login and data management.",
+        "Real-time chat module using REST endpoints and Short Polling for student-faculty communication."
       ],
       "link": "https://github.com/Cadosfrit/Kiit_sap_app/tree/master"
+    },
+    {
+      "id": 2,
+      "title": "Invoice Management System",
+      "date": "Aug 2025",
+      "tech": [
+        "Spring Boot",
+        "MySQL",
+        "React"
+      ],
+      "description": "Full-stack system managing end-to-end invoicing between buyers and sellers.",
+      "features": [
+        "Automatic invoice generation upon Purchase Order acceptance linking buyer and seller accounts.",
+        "Integrated dispute mechanism with automated email alerts.",
+        "Accounts Payables/Receivables tracking."
+      ]
     }
   ]
 }
